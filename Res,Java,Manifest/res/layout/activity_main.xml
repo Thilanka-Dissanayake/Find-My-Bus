@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F8F8FF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#0000FF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password (min 6 characters)"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Route (For Drivers)"
+        android:inputType="text"
+        android:padding="15dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#6B8E23"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        app:cornerRadius="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Account Yet? Register Here"
+        android:textColor="#0000FF"
+        android:padding="5dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>
+

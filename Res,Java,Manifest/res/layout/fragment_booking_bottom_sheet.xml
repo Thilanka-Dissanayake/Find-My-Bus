@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book This Bus"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/et_passenger_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_background"/>
+
+    <EditText
+        android:id="@+id/et_passenger_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Exact Pickup Location "
+        android:inputType="text"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_background"/>
+
+    <EditText
+        android:id="@+id/et_passenger_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Contact Number"
+        android:inputType="phone"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edittext_background"/>
+
+    <Button
+        android:id="@+id/btn_assign_bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assign Bus"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+
+</LinearLayout>

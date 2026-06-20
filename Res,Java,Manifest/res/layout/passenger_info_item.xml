@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:id="@+id/ll_text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/cb_picked_up">
+
+        <TextView
+            android:id="@+id/tv_passenger_name_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passenger Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/tv_passenger_location_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup: Location"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_passenger_contact_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact: 0771234567"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_picked_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="Picked Up"/>
+
+</RelativeLayout>
